@@ -1,3 +1,7 @@
+# Due Date
+
+9/5/2020, 11:59PM EDT.
+
 # Problem Description
 
 Merge two sorted arrays of integers into a single sorted array.
