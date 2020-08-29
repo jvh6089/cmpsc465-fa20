@@ -46,22 +46,22 @@ Now only accept C++ and Python2/Python3 code, g++ version 7.5.0 and Python versi
 Some examples (e.g., input-x.txt and output-x.txt, x = 1, 2, ...) are provided. 
 For Python code, try the following to test your code
 ```
-python ./solution.py < input-1.txt > my-output-1.txt
+python ./solution.py < input-x.txt > my-output-x.txt
 ```
 For C++ code, try the following to test your code
 ```
 g++ -o mybinary solution.cpp
-./mybinary < input-1.txt > my-output-1.txt
+./mybinary < input-x.txt > my-output-x.txt
 ```
 
-Your output `my-output-1.txt` needs to be *matched exactly* to the given `output-1.txt`.
+Your output `my-output-x.txt` needs to be *matched exactly* to the given `output-x.txt`.
 On Unix-based systems you can use `diff` to compare them:
 ```
-diff my-output-1.txt output-1.txt
+diff my-output-x.txt output-x.txt
 ```
 On Windows you can use `fc` to compare them:
 ```
-fc my-output-1.txt output-1.txt
+fc my-output-x.txt output-x.txt
 ```
 If nothing returns from either `diff` or `fc` then it means your code passed this example.
 
