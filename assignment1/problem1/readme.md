@@ -1,3 +1,7 @@
+# Due Date
+
+9/5/2020, 11:59PM EDT.
+
 # Problem Description
 
 Merge two sorted arrays of integers into a single sorted array.
@@ -50,7 +54,7 @@ g++ -o mybinary solution.cpp
 ./mybinary < input-1.txt > my-output-1.txt
 ```
 
-Your output `my-output-1.txt` needs to be *match exactly* to the given `output-1.txt`.
+Your output `my-output-1.txt` needs to be *matched exactly* to the given `output-1.txt`.
 On Unix-based systems you can use `diff` to compare them:
 ```
 diff my-output-1.txt output-1.txt
@@ -59,6 +63,7 @@ On Windows you can use `fc` to compare them:
 ```
 fc my-output-1.txt output-1.txt
 ```
+If nothing returns from either `diff` or `fc` then it means your code passed this example.
 
 # Submission
 
