@@ -1,6 +1,6 @@
 # Problem Description
 
-Use Merge-sort to sort an array into a sorted array (in ascending order).
+Implement merge-sort to sort an array.
 
 # Input
 
@@ -18,13 +18,13 @@ using functions `input()/raw_input()` in Python and `cin/scanf` in C++).
 One line, describing the sorted array, in ascending order.
 There should be `n` integers in a line give all numbers in the sorted array (in ascending order).
 All numbers should be separated with space.
-(You don't need to output the size of the array `n`)
+(You don't need to output the size of the array `n`.)
 
 Your code should write the output to standard output (e.g. using functions `print` in Python and `cout/printf` in C++).
 
 # Requirement
 
-Your algorithm should run in O(nlogn) time, i.e., you are not allowed to call any in-built sort function.
+Your algorithm should run in O(nlogn) time. You are not allowed to call any in-built sort function.
 
 Time limtation: 5 seconds.
 
@@ -38,25 +38,25 @@ Now only accept C++ and Python2/Python3 code, g++ version 7.5.0 and Python versi
 
 # Examples and Testing
 
-Some examples (e.g., input-x.txt and output-x.txt, x = 1, 2, ...) are provided. 
+Some examples (e.g., input-x.txt and output-x.txt, x = 1, 2) are provided. 
 For Python code, try the following to test your code
 ```
-python ./solution.py < input-1.txt > my-output-1.txt
+python ./solution.py < input-x.txt > my-output-x.txt
 ```
 For C++ code, try the following to test your code
 ```
 g++ -o mybinary solution.cpp
-./mybinary < input-1.txt > my-output-1.txt
+./mybinary < input-x.txt > my-output-x.txt
 ```
 
-Your output `my-output-1.txt` needs to be *match exactly* to the given `output-1.txt`.
+Your output `my-output-x.txt` needs to be *match exactly* to the given `output-x.txt`.
 On Unix-based systems you can use `diff` to compare them:
 ```
-diff my-output-1.txt output-1.txt
+diff my-output-x.txt output-x.txt
 ```
 On Windows you can use `fc` to compare them:
 ```
-fc my-output-1.txt output-1.txt
+fc my-output-x.txt output-x.txt
 ```
 
 # Submission
