@@ -5,7 +5,7 @@ Implement merge-sort to sort an array.
 # Input
 
 Two lines, the first line gives only one number `n`, the number of integers in the array. And the second line gives `n` numbers which are
-the `n` integers in the array, in ascending order. All numbers are separated by space.
+the `n` integers in the array. All numbers are separated by space.
 
 You can assume that 0 <= n <= 10000, and that each number in the arrarys
 are in the range of [-2147483648, 2147483647]. 
